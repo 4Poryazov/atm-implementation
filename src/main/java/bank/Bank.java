@@ -6,5 +6,12 @@ public interface Bank {
      void createBankAccount();
      void depositMoneyToAccount();
 
+     void setWithdrawLimits();
+     double viewCurrentLimit();
+
+     void createDebitCard();
+     void blockDebitCard();
+
+
 
 }
